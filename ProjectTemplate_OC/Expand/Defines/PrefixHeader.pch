@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  BaseProject
+//
+//  Created by Albert on 16/3/14.
+//  Copyright © 2016年 IncredibleMJ. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <AFNetworking.h>
+#import <YYModel.h>
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+
+/*****************以上为CocoaPods引进的库************************/
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+
+//用于存放全局宏定义 或者 静态字符串
+#import "Constants.h"
+
+//个人添加的在界面上弹出提示的类拓展
+#import "NSObject+Common.h"
+
+#endif /* PrefixHeader_pch */
