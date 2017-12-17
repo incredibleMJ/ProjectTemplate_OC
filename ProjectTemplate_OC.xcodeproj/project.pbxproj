@@ -26,6 +26,11 @@
 		6671115053286FC18B8D0747 /* libPods-ProjectTemplate_OCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECA782FF19465B612F6737C /* libPods-ProjectTemplate_OCTests.a */; };
 		949610DBD534AD71BD97BE5A /* libPods-ProjectTemplate_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E193C3BF4B7BD7DF7777A612 /* libPods-ProjectTemplate_OC.a */; };
 		BCC7AC9905B6FCF4D43D112F /* libPods-ProjectTemplate_OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE63336C02440D844466D0 /* libPods-ProjectTemplate_OCUITests.a */; };
+		CDFE4C941FE692860036D00E /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C931FE692860036D00E /* DataBase.m */; };
+		CDFE4C981FE692BA0036D00E /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C971FE692BA0036D00E /* Utilities.m */; };
+		CDFE4C9C1FE692F20036D00E /* CommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C9B1FE692F20036D00E /* CommonView.m */; };
+		CDFE4CA11FE693320036D00E /* AHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4CA01FE693320036D00E /* AHomeCell.m */; };
+		CDFE4CA61FE693820036D00E /* Taylor Swift8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4CA51FE693820036D00E /* Taylor Swift8.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +92,15 @@
 		51AE63336C02440D844466D0 /* libPods-ProjectTemplate_OCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectTemplate_OCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FECF08BC3CB4A68C749B64 /* Pods-ProjectTemplate_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_OCTests/Pods-ProjectTemplate_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECA782FF19465B612F6737C /* libPods-ProjectTemplate_OCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectTemplate_OCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFE4C921FE692860036D00E /* DataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		CDFE4C931FE692860036D00E /* DataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		CDFE4C961FE692BA0036D00E /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		CDFE4C971FE692BA0036D00E /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		CDFE4C9A1FE692F20036D00E /* CommonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonView.h; sourceTree = "<group>"; };
+		CDFE4C9B1FE692F20036D00E /* CommonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonView.m; sourceTree = "<group>"; };
+		CDFE4C9F1FE693320036D00E /* AHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHomeCell.h; sourceTree = "<group>"; };
+		CDFE4CA01FE693320036D00E /* AHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHomeCell.m; sourceTree = "<group>"; };
+		CDFE4CA51FE693820036D00E /* Taylor Swift8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taylor Swift8.jpeg"; sourceTree = "<group>"; };
 		CF915442A1F91BB27EDC76E2 /* Pods-ProjectTemplate_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_OC/Pods-ProjectTemplate_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		E193C3BF4B7BD7DF7777A612 /* libPods-ProjectTemplate_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectTemplate_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E483B34F144CAF03EF990CDB /* Pods-ProjectTemplate_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_OC/Pods-ProjectTemplate_OC.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,14 +161,14 @@
 			children = (
 				502D19831FD10568002DC38D /* AppDelegate.h */,
 				502D19841FD10568002DC38D /* AppDelegate.m */,
-				502D19891FD10568002DC38D /* Main.storyboard */,
+				502D19921FD10568002DC38D /* main.m */,
+				502D19911FD10568002DC38D /* Info.plist */,
 				502D198C1FD10568002DC38D /* Assets.xcassets */,
 				502D198E1FD10568002DC38D /* LaunchScreen.storyboard */,
-				502D19911FD10568002DC38D /* Info.plist */,
-				502D19921FD10568002DC38D /* main.m */,
+				502D19891FD10568002DC38D /* Main.storyboard */,
 				502D19CB1FD108EF002DC38D /* Expand */,
 				502D19D21FD108EF002DC38D /* Main */,
-				502D19DA1FD108EF002DC38D /* Resource */,
+				CDFE4CA21FE693700036D00E /* Resource */,
 				502D19D91FD108EF002DC38D /* Vendors */,
 			);
 			path = ProjectTemplate_OC;
@@ -181,11 +195,11 @@
 		502D19CB1FD108EF002DC38D /* Expand */ = {
 			isa = PBXGroup;
 			children = (
-				50C0F5991FDE1D18007D3D47 /* Defines */,
 				502D19CC1FD108EF002DC38D /* Category */,
-				502D19CE1FD108EF002DC38D /* DataBase */,
+				CDFE4C911FE692730036D00E /* DataBase */,
+				50C0F5991FDE1D18007D3D47 /* Defines */,
 				502D19D01FD108EF002DC38D /* Network */,
-				502D19D11FD108EF002DC38D /* Tool */,
+				CDFE4C951FE692A70036D00E /* Tool */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -203,13 +217,6 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		502D19CE1FD108EF002DC38D /* DataBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataBase;
-			sourceTree = "<group>";
-		};
 		502D19D01FD108EF002DC38D /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,13 +224,6 @@
 				50C0F5A41FDE1E46007D3D47 /* BaseNetManager.m */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		502D19D11FD108EF002DC38D /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		502D19D21FD108EF002DC38D /* Main */ = {
@@ -240,7 +240,7 @@
 			children = (
 				502D19D41FD108EF002DC38D /* Models */,
 				502D19D51FD108EF002DC38D /* ViewControllers */,
-				502D19D61FD108EF002DC38D /* Views */,
+				CDFE4C9D1FE693100036D00E /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -263,50 +263,12 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		502D19D61FD108EF002DC38D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				502D19D71FD108EF002DC38D /* CollectCells */,
-				502D19D81FD108EF002DC38D /* TableCells */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		502D19D71FD108EF002DC38D /* CollectCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectCells;
-			sourceTree = "<group>";
-		};
-		502D19D81FD108EF002DC38D /* TableCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableCells;
-			sourceTree = "<group>";
-		};
 		502D19D91FD108EF002DC38D /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
 				50C0F5C21FDE44AB007D3D47 /* CNPPopupController */,
 			);
 			path = Vendors;
-			sourceTree = "<group>";
-		};
-		502D19DA1FD108EF002DC38D /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				502D19DB1FD108EF002DC38D /* Images */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		502D19DB1FD108EF002DC38D /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		50C0F5991FDE1D18007D3D47 /* Defines */ = {
@@ -322,8 +284,8 @@
 		50C0F59C1FDE1DBE007D3D47 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CDFE4C991FE692E10036D00E /* Views */,
 				50C0F59F1FDE1DFF007D3D47 /* ViewControllers */,
-				50C0F59E1FDE1DF5007D3D47 /* Views */,
 				50C0F59D1FDE1DDB007D3D47 /* Models */,
 			);
 			path = Common;
@@ -336,13 +298,6 @@
 				50C0F5A11FDE1E2B007D3D47 /* BaseModel.m */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		50C0F59E1FDE1DF5007D3D47 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		50C0F59F1FDE1DFF007D3D47 /* ViewControllers */ = {
@@ -361,6 +316,74 @@
 				50C0F5C41FDE44AB007D3D47 /* CNPPopupController.m */,
 			);
 			path = CNPPopupController;
+			sourceTree = "<group>";
+		};
+		CDFE4C911FE692730036D00E /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C921FE692860036D00E /* DataBase.h */,
+				CDFE4C931FE692860036D00E /* DataBase.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		CDFE4C951FE692A70036D00E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C961FE692BA0036D00E /* Utilities.h */,
+				CDFE4C971FE692BA0036D00E /* Utilities.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CDFE4C991FE692E10036D00E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C9A1FE692F20036D00E /* CommonView.h */,
+				CDFE4C9B1FE692F20036D00E /* CommonView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDFE4C9D1FE693100036D00E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C9E1FE693150036D00E /* TableCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDFE4C9E1FE693150036D00E /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C9F1FE693320036D00E /* AHomeCell.h */,
+				CDFE4CA01FE693320036D00E /* AHomeCell.m */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		CDFE4CA21FE693700036D00E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4CA31FE693700036D00E /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CDFE4CA31FE693700036D00E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4CA41FE693700036D00E /* Test */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CDFE4CA41FE693700036D00E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4CA51FE693820036D00E /* Taylor Swift8.jpeg */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		E7A0F2E36825010A8D603858 /* Pods */ = {
@@ -504,6 +527,7 @@
 			files = (
 				502D19901FD10568002DC38D /* LaunchScreen.storyboard in Resources */,
 				502D198D1FD10568002DC38D /* Assets.xcassets in Resources */,
+				CDFE4CA61FE693820036D00E /* Taylor Swift8.jpeg in Resources */,
 				502D198B1FD10568002DC38D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,6 +693,8 @@
 			files = (
 				50C0F5A51FDE1E46007D3D47 /* BaseNetManager.m in Sources */,
 				50C0F5C51FDE44AB007D3D47 /* CNPPopupController.m in Sources */,
+				CDFE4C941FE692860036D00E /* DataBase.m in Sources */,
+				CDFE4C9C1FE692F20036D00E /* CommonView.m in Sources */,
 				50C0F5B31FDE2A93007D3D47 /* BaseViewController.m in Sources */,
 				50C0F5AE1FDE1EB2007D3D47 /* AppDelegate+Category.m in Sources */,
 				50C0F5A21FDE1E2B007D3D47 /* BaseModel.m in Sources */,
@@ -676,7 +702,9 @@
 				502D19931FD10568002DC38D /* main.m in Sources */,
 				502D19851FD10568002DC38D /* AppDelegate.m in Sources */,
 				50C0F5B61FDE2AB7007D3D47 /* TestModel.m in Sources */,
+				CDFE4CA11FE693320036D00E /* AHomeCell.m in Sources */,
 				50C0F5AD1FDE1EB2007D3D47 /* NSObject+Common.m in Sources */,
+				CDFE4C981FE692BA0036D00E /* Utilities.m in Sources */,
 				50C0F5AC1FDE1EB2007D3D47 /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
