@@ -23,6 +23,12 @@
 		50C0F5B61FDE2AB7007D3D47 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5B51FDE2AB7007D3D47 /* TestModel.m */; };
 		50C0F5B91FDE2ACB007D3D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5B81FDE2ACB007D3D47 /* ViewController.m */; };
 		50C0F5C51FDE44AB007D3D47 /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5C41FDE44AB007D3D47 /* CNPPopupController.m */; };
+		50C7D8351FEB5CFE008616E9 /* LBSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8261FEB5CFE008616E9 /* LBSegment.m */; };
+		50C7D8361FEB5CFE008616E9 /* LBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8281FEB5CFE008616E9 /* LBSegmentControl.m */; };
+		50C7D8371FEB5CFE008616E9 /* LBKitConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D82B1FEB5CFE008616E9 /* LBKitConst.m */; };
+		50C7D8381FEB5CFE008616E9 /* upIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7D82D1FEB5CFE008616E9 /* upIcon.png */; };
+		50C7D8391FEB5CFE008616E9 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8311FEB5CFE008616E9 /* UIView+ViewController.m */; };
+		50C7D83A1FEB5CFE008616E9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8341FEB5CFE008616E9 /* UIViewExt.m */; };
 		6671115053286FC18B8D0747 /* libPods-ProjectTemplate_OCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECA782FF19465B612F6737C /* libPods-ProjectTemplate_OCTests.a */; };
 		949610DBD534AD71BD97BE5A /* libPods-ProjectTemplate_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E193C3BF4B7BD7DF7777A612 /* libPods-ProjectTemplate_OC.a */; };
 		BCC7AC9905B6FCF4D43D112F /* libPods-ProjectTemplate_OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE63336C02440D844466D0 /* libPods-ProjectTemplate_OCUITests.a */; };
@@ -89,6 +95,17 @@
 		50C0F5C31FDE44AB007D3D47 /* CNPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPPopupController.h; sourceTree = "<group>"; };
 		50C0F5C41FDE44AB007D3D47 /* CNPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPPopupController.m; sourceTree = "<group>"; };
 		50C0F5C61FDE44F5007D3D47 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		50C7D8251FEB5CFE008616E9 /* LBSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegment.h; sourceTree = "<group>"; };
+		50C7D8261FEB5CFE008616E9 /* LBSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegment.m; sourceTree = "<group>"; };
+		50C7D8271FEB5CFE008616E9 /* LBSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegmentControl.h; sourceTree = "<group>"; };
+		50C7D8281FEB5CFE008616E9 /* LBSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegmentControl.m; sourceTree = "<group>"; };
+		50C7D82A1FEB5CFE008616E9 /* LBKitConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBKitConst.h; sourceTree = "<group>"; };
+		50C7D82B1FEB5CFE008616E9 /* LBKitConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBKitConst.m; sourceTree = "<group>"; };
+		50C7D82D1FEB5CFE008616E9 /* upIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upIcon.png; sourceTree = "<group>"; };
+		50C7D8301FEB5CFE008616E9 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		50C7D8311FEB5CFE008616E9 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		50C7D8331FEB5CFE008616E9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		50C7D8341FEB5CFE008616E9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		51AE63336C02440D844466D0 /* libPods-ProjectTemplate_OCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectTemplate_OCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FECF08BC3CB4A68C749B64 /* Pods-ProjectTemplate_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_OCTests/Pods-ProjectTemplate_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECA782FF19465B612F6737C /* libPods-ProjectTemplate_OCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectTemplate_OCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				50C0F5C21FDE44AB007D3D47 /* CNPPopupController */,
+				50C7D8231FEB5CFE008616E9 /* LBSegmentControlKit */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -316,6 +334,72 @@
 				50C0F5C41FDE44AB007D3D47 /* CNPPopupController.m */,
 			);
 			path = CNPPopupController;
+			sourceTree = "<group>";
+		};
+		50C7D8231FEB5CFE008616E9 /* LBSegmentControlKit */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8241FEB5CFE008616E9 /* LBSegmentControl */,
+				50C7D8291FEB5CFE008616E9 /* LBSegmentControlConst */,
+				50C7D82C1FEB5CFE008616E9 /* LBSegmentControlImgs */,
+				50C7D82E1FEB5CFE008616E9 /* LBSegmentControlTools */,
+			);
+			path = LBSegmentControlKit;
+			sourceTree = "<group>";
+		};
+		50C7D8241FEB5CFE008616E9 /* LBSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8251FEB5CFE008616E9 /* LBSegment.h */,
+				50C7D8261FEB5CFE008616E9 /* LBSegment.m */,
+				50C7D8271FEB5CFE008616E9 /* LBSegmentControl.h */,
+				50C7D8281FEB5CFE008616E9 /* LBSegmentControl.m */,
+			);
+			path = LBSegmentControl;
+			sourceTree = "<group>";
+		};
+		50C7D8291FEB5CFE008616E9 /* LBSegmentControlConst */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D82A1FEB5CFE008616E9 /* LBKitConst.h */,
+				50C7D82B1FEB5CFE008616E9 /* LBKitConst.m */,
+			);
+			path = LBSegmentControlConst;
+			sourceTree = "<group>";
+		};
+		50C7D82C1FEB5CFE008616E9 /* LBSegmentControlImgs */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D82D1FEB5CFE008616E9 /* upIcon.png */,
+			);
+			path = LBSegmentControlImgs;
+			sourceTree = "<group>";
+		};
+		50C7D82E1FEB5CFE008616E9 /* LBSegmentControlTools */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D82F1FEB5CFE008616E9 /* UIView+ViewController */,
+				50C7D8321FEB5CFE008616E9 /* UIViewExt */,
+			);
+			path = LBSegmentControlTools;
+			sourceTree = "<group>";
+		};
+		50C7D82F1FEB5CFE008616E9 /* UIView+ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8301FEB5CFE008616E9 /* UIView+ViewController.h */,
+				50C7D8311FEB5CFE008616E9 /* UIView+ViewController.m */,
+			);
+			path = "UIView+ViewController";
+			sourceTree = "<group>";
+		};
+		50C7D8321FEB5CFE008616E9 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8331FEB5CFE008616E9 /* UIViewExt.h */,
+				50C7D8341FEB5CFE008616E9 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
 			sourceTree = "<group>";
 		};
 		CDFE4C911FE692730036D00E /* DataBase */ = {
@@ -526,6 +610,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				502D19901FD10568002DC38D /* LaunchScreen.storyboard in Resources */,
+				50C7D8381FEB5CFE008616E9 /* upIcon.png in Resources */,
 				502D198D1FD10568002DC38D /* Assets.xcassets in Resources */,
 				CDFE4CA61FE693820036D00E /* Taylor Swift8.jpeg in Resources */,
 				502D198B1FD10568002DC38D /* Main.storyboard in Resources */,
@@ -693,14 +778,19 @@
 			files = (
 				50C0F5A51FDE1E46007D3D47 /* BaseNetManager.m in Sources */,
 				50C0F5C51FDE44AB007D3D47 /* CNPPopupController.m in Sources */,
+				50C7D8391FEB5CFE008616E9 /* UIView+ViewController.m in Sources */,
 				CDFE4C941FE692860036D00E /* DataBase.m in Sources */,
 				CDFE4C9C1FE692F20036D00E /* CommonView.m in Sources */,
 				50C0F5B31FDE2A93007D3D47 /* BaseViewController.m in Sources */,
 				50C0F5AE1FDE1EB2007D3D47 /* AppDelegate+Category.m in Sources */,
 				50C0F5A21FDE1E2B007D3D47 /* BaseModel.m in Sources */,
+				50C7D8351FEB5CFE008616E9 /* LBSegment.m in Sources */,
 				50C0F5B91FDE2ACB007D3D47 /* ViewController.m in Sources */,
 				502D19931FD10568002DC38D /* main.m in Sources */,
 				502D19851FD10568002DC38D /* AppDelegate.m in Sources */,
+				50C7D83A1FEB5CFE008616E9 /* UIViewExt.m in Sources */,
+				50C7D8361FEB5CFE008616E9 /* LBSegmentControl.m in Sources */,
+				50C7D8371FEB5CFE008616E9 /* LBKitConst.m in Sources */,
 				50C0F5B61FDE2AB7007D3D47 /* TestModel.m in Sources */,
 				CDFE4CA11FE693320036D00E /* AHomeCell.m in Sources */,
 				50C0F5AD1FDE1EB2007D3D47 /* NSObject+Common.m in Sources */,
