@@ -195,9 +195,9 @@
 		502D19CB1FD108EF002DC38D /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				50C0F5991FDE1D18007D3D47 /* Defines */,
 				502D19CC1FD108EF002DC38D /* Category */,
 				CDFE4C911FE692730036D00E /* DataBase */,
-				50C0F5991FDE1D18007D3D47 /* Defines */,
 				502D19D01FD108EF002DC38D /* Network */,
 				CDFE4C951FE692A70036D00E /* Tool */,
 			);
@@ -284,9 +284,9 @@
 		50C0F59C1FDE1DBE007D3D47 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				50C0F59D1FDE1DDB007D3D47 /* Models */,
 				CDFE4C991FE692E10036D00E /* Views */,
 				50C0F59F1FDE1DFF007D3D47 /* ViewControllers */,
-				50C0F59D1FDE1DDB007D3D47 /* Models */,
 			);
 			path = Common;
 			sourceTree = "<group>";
