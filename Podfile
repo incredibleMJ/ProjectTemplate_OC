@@ -11,6 +11,7 @@ target 'ProjectTemplate_OC' do
   pod 'MBProgressHUD', '~> 1.1.0' #弹框提示
   pod 'Masonry' #布局库
   pod 'SDWebImage', '~> 4.0' #网络图片加载
+  pod 'DZNEmptyDataSet' #空列表显示
 
   # Pods for ProjectTemplate_OC
 
