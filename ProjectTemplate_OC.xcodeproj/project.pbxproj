@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1802428E22FA7DC60002949A /* MJBaseNaviVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802428A22FA7DC50002949A /* MJBaseNaviVC.m */; };
+		1802428F22FA7DC60002949A /* MJBaseTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802428D22FA7DC60002949A /* MJBaseTabVC.m */; };
 		502D19851FD10568002DC38D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D19841FD10568002DC38D /* AppDelegate.m */; };
 		502D198B1FD10568002DC38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502D19891FD10568002DC38D /* Main.storyboard */; };
 		502D198D1FD10568002DC38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502D198C1FD10568002DC38D /* Assets.xcassets */; };
@@ -19,7 +21,7 @@
 		50C0F5AC1FDE1EB2007D3D47 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5A61FDE1EB2007D3D47 /* UIImage+Category.m */; };
 		50C0F5AD1FDE1EB2007D3D47 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5A71FDE1EB2007D3D47 /* NSObject+Common.m */; };
 		50C0F5AE1FDE1EB2007D3D47 /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5AB1FDE1EB2007D3D47 /* AppDelegate+Category.m */; };
-		50C0F5B31FDE2A93007D3D47 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5B21FDE2A93007D3D47 /* BaseViewController.m */; };
+		50C0F5B31FDE2A93007D3D47 /* MJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5B21FDE2A93007D3D47 /* MJBaseViewController.m */; };
 		50C0F5B61FDE2AB7007D3D47 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5B51FDE2AB7007D3D47 /* TestModel.m */; };
 		50C0F5B91FDE2ACB007D3D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5B81FDE2ACB007D3D47 /* ViewController.m */; };
 		50C0F5C51FDE44AB007D3D47 /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0F5C41FDE44AB007D3D47 /* CNPPopupController.m */; };
@@ -58,6 +60,10 @@
 
 /* Begin PBXFileReference section */
 		0C0625B4B20FD82C658675E9 /* Pods-ProjectTemplate_OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_OCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_OCUITests/Pods-ProjectTemplate_OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1802428A22FA7DC50002949A /* MJBaseNaviVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBaseNaviVC.m; sourceTree = "<group>"; };
+		1802428B22FA7DC60002949A /* MJBaseNaviVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBaseNaviVC.h; sourceTree = "<group>"; };
+		1802428C22FA7DC60002949A /* MJBaseTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBaseTabVC.h; sourceTree = "<group>"; };
+		1802428D22FA7DC60002949A /* MJBaseTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBaseTabVC.m; sourceTree = "<group>"; };
 		18BDF2F2B4B6FB8017DB90F5 /* Pods-ProjectTemplate_OCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_OCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_OCTests/Pods-ProjectTemplate_OCTests.release.xcconfig"; sourceTree = "<group>"; };
 		41B942A5FC7622D4BDA271EC /* Pods-ProjectTemplate_OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_OCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_OCUITests/Pods-ProjectTemplate_OCUITests.release.xcconfig"; sourceTree = "<group>"; };
 		502D19801FD10568002DC38D /* ProjectTemplate_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,8 +92,8 @@
 		50C0F5A91FDE1EB2007D3D47 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		50C0F5AA1FDE1EB2007D3D47 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
 		50C0F5AB1FDE1EB2007D3D47 /* AppDelegate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Category.m"; sourceTree = "<group>"; };
-		50C0F5B11FDE2A93007D3D47 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		50C0F5B21FDE2A93007D3D47 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		50C0F5B11FDE2A93007D3D47 /* MJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJBaseViewController.h; sourceTree = "<group>"; };
+		50C0F5B21FDE2A93007D3D47 /* MJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJBaseViewController.m; sourceTree = "<group>"; };
 		50C0F5B41FDE2AB7007D3D47 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		50C0F5B51FDE2AB7007D3D47 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		50C0F5B71FDE2ACB007D3D47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -321,8 +327,12 @@
 		50C0F59F1FDE1DFF007D3D47 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				50C0F5B11FDE2A93007D3D47 /* BaseViewController.h */,
-				50C0F5B21FDE2A93007D3D47 /* BaseViewController.m */,
+				1802428B22FA7DC60002949A /* MJBaseNaviVC.h */,
+				1802428A22FA7DC50002949A /* MJBaseNaviVC.m */,
+				1802428C22FA7DC60002949A /* MJBaseTabVC.h */,
+				1802428D22FA7DC60002949A /* MJBaseTabVC.m */,
+				50C0F5B11FDE2A93007D3D47 /* MJBaseViewController.h */,
+				50C0F5B21FDE2A93007D3D47 /* MJBaseViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -564,7 +574,7 @@
 		502D19781FD10568002DC38D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Albert;
 				TargetAttributes = {
 					502D197F1FD10568002DC38D = {
@@ -781,14 +791,16 @@
 				50C7D8391FEB5CFE008616E9 /* UIView+ViewController.m in Sources */,
 				CDFE4C941FE692860036D00E /* DataBase.m in Sources */,
 				CDFE4C9C1FE692F20036D00E /* CommonView.m in Sources */,
-				50C0F5B31FDE2A93007D3D47 /* BaseViewController.m in Sources */,
+				50C0F5B31FDE2A93007D3D47 /* MJBaseViewController.m in Sources */,
 				50C0F5AE1FDE1EB2007D3D47 /* AppDelegate+Category.m in Sources */,
 				50C0F5A21FDE1E2B007D3D47 /* BaseModel.m in Sources */,
+				1802428F22FA7DC60002949A /* MJBaseTabVC.m in Sources */,
 				50C7D8351FEB5CFE008616E9 /* LBSegment.m in Sources */,
 				50C0F5B91FDE2ACB007D3D47 /* ViewController.m in Sources */,
 				502D19931FD10568002DC38D /* main.m in Sources */,
 				502D19851FD10568002DC38D /* AppDelegate.m in Sources */,
 				50C7D83A1FEB5CFE008616E9 /* UIViewExt.m in Sources */,
+				1802428E22FA7DC60002949A /* MJBaseNaviVC.m in Sources */,
 				50C7D8361FEB5CFE008616E9 /* LBSegmentControl.m in Sources */,
 				50C7D8371FEB5CFE008616E9 /* LBKitConst.m in Sources */,
 				50C0F5B61FDE2AB7007D3D47 /* TestModel.m in Sources */,
@@ -864,6 +876,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -871,6 +884,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -898,7 +912,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -919,6 +933,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -926,6 +941,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -947,7 +963,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -964,7 +980,7 @@
 				DEVELOPMENT_TEAM = 4RYN52TL3G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ProjectTemplate_OC/Expand/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = ProjectTemplate_OC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IncredibleMJ.ProjectTemplate-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -985,7 +1001,7 @@
 				DEVELOPMENT_TEAM = 4RYN52TL3G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ProjectTemplate_OC/Expand/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = ProjectTemplate_OC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IncredibleMJ.ProjectTemplate-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

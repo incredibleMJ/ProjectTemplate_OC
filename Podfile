@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-  platform :ios, '8.3'
+  platform :ios, '10.0'
   inhibit_all_warnings!
 
 target 'ProjectTemplate_OC' do

@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Albert. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "MJBaseViewController.h"
 
-@interface ViewController : BaseViewController
+@interface ViewController : MJBaseViewController
 
 @end
